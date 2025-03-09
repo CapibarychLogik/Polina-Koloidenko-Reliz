@@ -6,19 +6,23 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e0c0e0;
     color: #333;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #e6ceeb;
+    color: rgb(221, 140, 221);
     text-align: center;
     padding: 20px;
 }
 
 h1 {
     font-size: 2rem;
+}
+
+footer h1{
+    text-align: center;
 }
 
 .movie-container {
@@ -65,4 +69,33 @@ h1 {
         width: 100%;
         margin-bottom: 20px;
     }
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.data-table th {
+    background-color: #f799fa;
+    color: white;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.data-table tr:hover {
+    background-color: #ddd;
+}
+
+.data-table td {
+    font-size: 16px;
 }
